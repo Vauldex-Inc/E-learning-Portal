@@ -1,0 +1,24 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+->  /students       students.Routes
+->  /teachers       teachers.Routes
+->  /guardians      guardians.Routes
+->  /announcements  announcements.Routes
+->  /subjects       subjects.Routes
+->  /courses        courses.Routes
+->  /lessons        lessons.Routes
+->  /sessions       sessions.Routes
+->  /homerooms      homerooms.Routes
+->  /curriculums    curriculums.Routes
+->  /events         events.Routes
+->  /attendances    attendances.Routes
+->  /reports        reports.Routes
+
+### NoDocs ###
+GET   /docs/swagger-ui/*file        controllers.Assets.at(path:String="/public/lib/swagger-ui", file:String)
+
+### NoDocs ###
+GET   /assets/*file                 controllers.Assets.versioned(path="/public", file: Asset)
