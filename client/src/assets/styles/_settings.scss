@@ -1,0 +1,32 @@
+@import "~simplegrid/simple-grid";
+
+// colors
+$primary:             #06AF65; // Tsukuba Light Green
+$primary-variant:     #00683B; // Tsukuba Green
+$secondary:           #D7E6DF; // Tsukuba Super Light Green
+$secondary-variant:   #F3F7F5; // Tsukuba Ultra Light Green
+$success:             $primary;
+$error:               #E02020;
+$warning:             #FF5100;
+$info:                #8738BD;
+$link:                #3C78E5;
+
+$text:                #333333; // Text Black
+$text-light:          #CACACA; // Text Light
+$text-white:          #FFFFFF; // Text White
+$text-gray:           #555555; // Text Gray
+$header:              #5A5A5A; // Header Text Black
+$sub:                 #999999; // Sub Black
+$shadow:              #AAAAAA;
+
+$panel:               #FFFFFF;
+$background:          $secondary-variant;
+$outline:             $secondary;
+$outline-input:       $shadow;
+$disabled:            #EFEFEF;
+
+$border-radius: 4px;
+$text-size: 16px;
+$text-padding: .5rem .8rem;
+$form-padding: 1rem 2rem 3rem;
+$component-margin: 1rem auto;
